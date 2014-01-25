@@ -87,6 +87,15 @@
 	</div>
 {/if}
 
+
+  {if isset($coord_error)}
+<div class="buffer" style="width: 500px;">&nbsp;</div>
+<p style="line-height: 1.6em; color: red; font-weight: 900;">
+      {$coord_error}
+</p>
+<div class="buffer" style="width: 500px;">&nbsp;</div>
+  {/if}
+
 <!-- Cachemeta -->
 <div class="content2-container line-box" style="float:left">  {* div height will be wroing without float:left - why *}  
 	<div class="">
